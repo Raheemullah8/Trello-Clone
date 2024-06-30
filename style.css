@@ -1,0 +1,60 @@
+<style>
+      * {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #5e2bff; /* Updated header background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px; /* Increased header height */
+      }
+
+      header h1 {
+        color: #fff; /* White text color for better contrast */
+        cursor: pointer;
+      }
+
+      main {
+        display: flex;
+        align-items: start;
+        gap: 10px;
+        overflow-x: auto;
+        padding: 20px;
+      }
+
+      .column {
+        border: 2px solid #ff6347; /* Updated column border color */
+        min-height: 300px;
+        min-width: 300px;
+        padding: 20px; /* Increased padding inside columns */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #f0f0f0; /* Light gray background color */
+        border-radius: 8px; /* Rounded corners for columns */
+      }
+
+      .column > h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px; /* Added margin below h3 for spacing */
+      }
+
+      .column > p {
+        padding: 8px;
+        background-color: #e0e0e0; /* Lighter background for task items */
+        text-align: center;
+        border-radius: 4px; /* Rounded corners for task items */
+      }
+
+      .column > form > input {
+    padding: 5px;
+        width: 100%;
+        border: 1px solid #ccc; /* Added border for input field */
+        border-radius: 4px; /* Rounded corners for input field */
+      }
